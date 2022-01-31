@@ -43,7 +43,7 @@ function update(){
 function calculateMonthlyPayment(values){
   const i = (values.rate/100)/12;
   const n = Math.floor(values.years * 12);
-  const p = (values.amount);
+  const p = values.amount;
   return (
     (p*i)/(1 - Math.pow((1+ i), -n))
   ).toFixed(2);
