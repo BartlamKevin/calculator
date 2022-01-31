@@ -6,7 +6,7 @@ it('should calculate the monthly rate correctly', function () {
     years: 7,
     rate:12
   };
-  expect(calculateMonthlyPayment.(values).toEqual(158.89))
+  expect(calculateMonthlyPayment.(values).toEqual(158.89));
 });
 
 
@@ -17,7 +17,7 @@ it("should return a result with 2 decimal places", function() {
     years: 10,
     rate: 5.5
   };
-  expect(calculateMonthlyPayment.(values).toEqual(130.23))
+  expect(calculateMonthlyPayment.(values).toEqual(130.23));
 });
 
 /// etc
